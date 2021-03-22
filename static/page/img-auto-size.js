@@ -1,0 +1,1 @@
+function img_auto_size(i,t,h){var n=new Image;n.src=i.src,n.width>0&&n.height>0&&(n.width>t?(i.width=t,i.height=n.height*t/n.width,i.onmouseover=function(){this.style.cursor="hand"},i.onmouseout=function(){this.style.cursor=""},h&&(i.onclick=function(){window.open(this.src,"_blank")})):(i.width=n.width,i.height=n.height))}
